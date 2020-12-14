@@ -12,3 +12,5 @@
 // Mindegyik metódus visszatérési értéke egy új Array, Map, vagy Set object.
 
 'use strict';
+for (var i = 1; i < 5; i++) 
+    console.log(i + 1 ); 
