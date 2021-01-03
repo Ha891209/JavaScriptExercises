@@ -1,0 +1,16 @@
+{
+    "users": [
+        {
+            "name": "Chandler Bing",
+            "age": 30
+        },
+        {
+            "name": "Ken Adams",
+            "age": 32
+        },
+        {
+            "name": "Ross Geller",
+            "age": 34
+        }        
+    ]
+}

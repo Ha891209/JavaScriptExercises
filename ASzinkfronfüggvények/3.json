@@ -1,0 +1,16 @@
+{
+    "users": [
+        {
+            "name": "Charlie Poo",
+            "age": 45
+        },
+        {
+            "name": "Fiona White",
+            "age": 35
+        },
+        {
+            "name": "Michael Jack",
+            "age": 23
+        }
+    ]
+}

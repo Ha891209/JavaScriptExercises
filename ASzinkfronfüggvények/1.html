@@ -1,0 +1,43 @@
+2<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Alakítsd át az alábbi függvény úgy, hogy fetch-et használsz, és try catch-es kivételkezelést!
+function request(method, url){
+    const xhttp = new XMLHttpRequest();
+    xhr.onload = () => console.log('Request success')
+    xhr.onerror = () => console.error('Request error');
+    xhr.open(method, url);
+    xhr.send();
+} -->
+    <script>
+
+        function makeRequest(url) {
+            fetch(url).then(response => {
+                if (response.ok) {
+                    return response;
+                }
+            }).then(function (response) {
+                return response.json();
+            }).then(function (json) {
+                console.log('Request success');
+            }).catch(function (error) {
+                console.error('Request error');
+            });
+        }
+
+        makeRequest('1.json');
+        makeRequest('2.json');
+
+    </script>
+
+</body>
+
+</html>

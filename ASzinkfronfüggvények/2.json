@@ -1,0 +1,16 @@
+{
+    "users": [
+        {
+            "name": "Rachel Green",
+            "age": 26
+        },
+        {
+            "name": "Monica Geller",
+            "age": 26
+        },
+        {
+            "name": "Phoebe Buffey",
+            "age": 27
+        }
+    ]
+}
